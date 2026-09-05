@@ -36,16 +36,19 @@ The workflow follows a simple two-agent pipeline:
 
 ## Setup
 
-1. Download/clone this repo, open a terminal in the folder.
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/sireeshabathu-oss/competitive-intelligence-crew.git
+cd competitive-intelligence-crew
+
 2. Install dependencies:
-   ```bash
+
    pip install -r requirements.txt
-   ```
-3. Copy `.env.example` to `.env`:
-   ```bash
-   cp .env.example .env
-   ```
-4. Fill in your API keys in `.env`.
+
+3. cp .env.example .env
+
+4. Add your API keys to .env .
 
 ## Usage
 
