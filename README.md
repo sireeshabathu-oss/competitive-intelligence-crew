@@ -100,14 +100,12 @@ No code editing needed — pass the company name as a CLI argument (see Usage ab
 
 ```
 competitive-intelligence-crew/
-├── crew.py           # defines the Searcher and Analyst agents
-├── main.py           # entry point — run this file
-├── tests/
-│   ├── test_main.py  # tests for CLI args and env validation
-│   └── test_crew.py  # tests for crew-building logic (crewai mocked out)
-├── docs/
-│   ├── architecture.svg
-│   └── example-terminal-output.png
+├── crew.py
+├── main.py
+├── test_main.py
+├── test_crew.py
+├── architecture.svg
+├── example-terminal-output.png
 ├── requirements.txt
 ├── .env.example
 ├── LICENSE
