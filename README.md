@@ -92,15 +92,15 @@ No code editing needed — pass the company name as a CLI argument (see Usage ab
 
 ## Tech Stack
 
-| Layer | Choice |
+| Category | Technology |
 |---|---|
 | Language | Python 3.10+ |
-| Agent Framework | [CrewAI](https://github.com/joaomdmoura/crewAI) — multi-agent orchestration (Searcher + Analyst agents) |
-| Web Search | [Serper API](https://serper.dev) — powers the Searcher agent's real-time lookups |
-| LLM Provider | OpenAI or Anthropic (configurable via `.env`) |
-| CLI | `argparse` — configurable company/focus/output without editing source |
-| Config | `python-dotenv` for environment variable management |
-| Testing | `unittest` + `unittest.mock` — no live API calls required |
+| AI Agent Framework | CrewAI |
+| LLM Providers | OpenAI / Anthropic |
+| Web Search | Serper API |
+| CLI | Python `argparse` |
+| Configuration | `python-dotenv` |
+| Testing | `unittest` + `unittest.mock` |
 | Version Control | Git / GitHub |
 
 ## Project structure
