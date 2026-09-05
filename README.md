@@ -9,8 +9,6 @@ A two-agent AI system, built with [CrewAI](https://github.com/joaomdmoura/crewAI
 
 This mirrors how a real competitive intelligence team works: one person gathers raw information, another synthesizes it into something a business team can act on.
 
-</> Markdown 
-
 ## Architecture
 
 ![Architecture diagram](docs/architecture.svg)
