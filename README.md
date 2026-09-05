@@ -15,7 +15,13 @@ This mirrors how a real competitive intelligence team works: one person gathers 
 
 ![Architecture diagram](architecture.svg)
 
-CLI input flows into `main.py`, which validates the required API keys before anything runs. The Searcher agent then queries the Serper API and passes its findings as context to the Analyst agent, which synthesizes everything into `report.md`.
+The workflow follows a simple two-agent pipeline:
+
+1. **CLI Input** — accepts the target company, focus areas, and output file.
+2. **Validation** — `main.py` validates the input and required API keys.
+3. **Market Research Searcher** — uses the Serper API to gather current information from the web.
+4. **Competitive Intelligence Analyst** — analyzes the research and produces structured business insights.
+5. **Report Generation** — saves the final competitive intelligence report as a Markdown file.`.
 
 ## Example output
 
