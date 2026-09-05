@@ -112,6 +112,28 @@ competitive-intelligence-crew/
 └── README.md
 ```
 
-## Why this project is worth showing
+## Why this project
 
-Competitive intelligence is a task every business, product, and strategy team needs but rarely has time to do well. This project demonstrates multi-agent research automation — role separation between gathering and synthesizing information — a pattern that applies well beyond competitor research, to market research, due diligence, and trend monitoring. It also demonstrates production-minded practices beyond the happy path: configurable input, validated environment setup, clear error handling, and a test suite that runs without needing real API keys.
+This project demonstrates how AI agents can automate a real-world business research workflow.
+
+### Key capabilities
+
+- Multi-agent architecture using CrewAI
+- Real-time web research using the Serper API
+- AI-powered analysis using OpenAI or Anthropic
+- Configurable company, focus areas, and output file
+- Structured competitive intelligence reports
+- Environment-based API key management
+- Input validation and error handling
+- Unit tests with mocked external dependencies
+
+### What I learned
+
+Through this project, I gained practical experience in designing multi-agent workflows, integrating external APIs, handling configuration and failures, and testing AI-assisted applications without relying on live API calls.
+
+### Future improvements
+
+- Add additional research sources
+- Introduce persistent report storage
+- Add a web dashboard for easier interaction
+- Support scheduled competitive intelligence monitoring
