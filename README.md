@@ -1,6 +1,8 @@
-# Competitive Intelligence Crew
+# Competitive Intelligence Crew 🤖
 
-A two-agent AI system, built with [CrewAI](https://github.com/joaomdmoura/crewAI), that researches a company and produces a structured competitive intelligence report.
+A multi-agent AI system built with CrewAI that researches companies using real-time web search and generates structured competitive intelligence reports.
+
+> Automate the research. Analyze the competition. Generate actionable insights.
 
 ## How it works
 
