@@ -27,8 +27,13 @@ The workflow follows a simple two-agent pipeline:
 
 ![Example terminal output](example-terminal-output.png)
 
-*This is an illustrative mockup of the terminal output — not a live run — since generating real output requires your own API keys. Actual results will vary based on live search results when you run it.*
+## Example output
 
+The CLI provides real-time progress as the two agents complete their tasks, followed by the location of the generated report.
+
+![Example terminal output](example-terminal-output.png)
+
+> **Note:** The screenshot is an illustrative mockup of the terminal output. Actual results vary depending on the company, focus areas, live search results, and LLM response.
 ## What you need before running it
 
 - **Python 3.10+** ([python.org/downloads](https://www.python.org/downloads/))
