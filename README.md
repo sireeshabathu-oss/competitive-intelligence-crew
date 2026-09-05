@@ -11,13 +11,13 @@ This mirrors how a real competitive intelligence team works: one person gathers 
 
 ## Architecture
 
-![Architecture diagram](docs/architecture.png)
+![Architecture diagram](architecture.svg)
 
 CLI input flows into `main.py`, which validates the required API keys before anything runs. The Searcher agent then queries the Serper API and passes its findings as context to the Analyst agent, which synthesizes everything into `report.md`.
 
 ## Example output
 
-![Example terminal output](docs/example-terminal-output.png)
+![Example terminal output](example-terminal-output.png)
 
 *This is an illustrative mockup of the terminal output — not a live run — since generating real output requires your own API keys. Actual results will vary based on live search results when you run it.*
 
