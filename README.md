@@ -37,29 +37,26 @@ The workflow follows a simple two-agent pipeline:
 
 ## Setup
 
-```
 ### 1. Clone the repository
 
 ```bash
 git clone https://github.com/sireeshabathu-oss/competitive-intelligence-crew.gitcd competitive-intelligence-crew 
-``
+```
 
 ### 2. Install dependencies
 
 ```bash
  pip install -r requirements.txt
-``
+```
 
 ### 3. Configure environment variables
 
-Copy `.env.exampleto.env':
+Copy `.env.example` to `.env`:
 
 ```bash
 cp.env.example.env
 ```
 Then add your API keys to `.env`.
-
-Markdown
 
 > **Security:: Never commit your ` .env` file or expose API keys publicly. The ".gitignore" file is configured to keep `.env` out of the repository.
 
