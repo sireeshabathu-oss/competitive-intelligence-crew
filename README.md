@@ -58,7 +58,7 @@ git clone https://github.com/sireeshabathu-oss/competitive-intelligence-crew.git
 Copy `.env.example` to `.env`:
 
 ```bash
-cp.env.example.env
+cp .env.example .env
 ```
 Then add your API keys to `.env`.
 
