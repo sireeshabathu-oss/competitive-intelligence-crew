@@ -100,7 +100,7 @@ The project fails fast with clear messages instead of a raw stack trace when som
 Unit tests cover the configuration and validation logic — argument parsing, environment variable checks, and error handling — without requiring API keys or making real network/LLM calls. `crewai` itself is mocked out, so the tests run fast and don't need the (heavy) real dependency installed just to verify the app's own logic.
 
 ```bash
-python -m unittest discover -s tests -v
+python -m unittest discover -v
 ```
 
 ## Researching a different company
