@@ -44,12 +44,15 @@ The workflow follows a simple two-agent pipeline:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/sireeshabathu-oss/competitive-intelligence-crew.gitcd competitive-intelligence-crew 
+
+git clone https://github.com/sireeshabathu-oss/competitive-intelligence-crew.git
+cd competitive-intelligence-crew 
 ```
 
 ### 2. Install dependencies
 
 ```bash
+
  pip install -r requirements.txt
 ```
 
@@ -58,11 +61,12 @@ git clone https://github.com/sireeshabathu-oss/competitive-intelligence-crew.git
 Copy `.env.example` to `.env`:
 
 ```bash
+
 cp .env.example .env
 ```
 Then add your API keys to `.env`.
 
-> **Security:: Never commit your ` .env` file or expose API keys publicly. The ".gitignore" file is configured to keep `.env` out of the repository.
+> **Security: Never commit your `.env` file or expose API keys publicly. The ".gitignore" file is configured to keep `.env` out of the repository.
 
 ## Usage
 
@@ -113,7 +117,7 @@ No code editing needed — pass the company name as a CLI argument (see Usage ab
 |---|---|
 | Language | Python 3.10+ |
 | AI Agent Framework | CrewAI |
-| LLM Providers | OpenAI / Anthropic |
+| LLM Providers | Gemini / OpenAI / Anthropic |
 | Web Search | Serper API |
 | CLI | Python `argparse` |
 | Configuration | `python-dotenv` |
