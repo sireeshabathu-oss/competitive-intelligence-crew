@@ -25,7 +25,7 @@ The workflow follows a simple two-agent pipeline:
 2. **Validation** — `main.py` validates the input and required API keys.
 3. **Market Research Searcher** — uses the Serper API to gather current information from the web.
 4. **Competitive Intelligence Analyst** — analyzes the research and produces structured business insights.
-5. **Report Generation** — saves the final competitive intelligence report as a Markdown file.`.
+5. **Report Generation** — saves the final competitive intelligence report as a Markdown file.
 
 ## Example output
 
