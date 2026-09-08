@@ -44,7 +44,8 @@ cd competitive-intelligence-crew
 
 2. Install dependencies:
 
-   pip install -r requirements.txt
+</> Bash
+pip install -r requirements.txt
 
 3. cp .env.example .env
 
