@@ -35,7 +35,7 @@ The workflow follows a simple two-agent pipeline:
 ## What you need before running it
 
 - **Python 3.10+** ([python.org/downloads](https://www.python.org/downloads/))
-- **An LLM API key** — [OpenAI](https://platform.openai.com/api-keys) or [Anthropic](https://console.anthropic.com/settings/keys)
+- **An LLM API key** — Gemini (free, no credit card — recommended),[OpenAI](https://platform.openai.com/api-keys) or [Anthropic](https://console.anthropic.com/settings/keys)
 - **A Serper API key** (free tier available) — [serper.dev](https://serper.dev) — this powers the agent's web search
 
 
