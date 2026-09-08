@@ -37,6 +37,7 @@ The workflow follows a simple two-agent pipeline:
 
 ## Setup
 
+```
 ### 1. Clone the repository
 
 ```bash
