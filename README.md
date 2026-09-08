@@ -34,22 +34,35 @@ The workflow follows a simple two-agent pipeline:
 - **An LLM API key** — [OpenAI](https://platform.openai.com/api-keys) or [Anthropic](https://console.anthropic.com/settings/keys)
 - **A Serper API key** (free tier available) — [serper.dev](https://serper.dev) — this powers the agent's web search
 
+
 ## Setup
 
 ### 1. Clone the repository
 
 ```bash
+
 git clone https://github.com/sireeshabathu-oss/competitive-intelligence-crew.git
-cd competitive-intelligence-crew
 
-2. Install dependencies:
+cd competitive-intelligence-crew 
+``
 
-</> Bash
-pip install -r requirements.txt
+### 2. Install dependencies
 
-3. cp .env.example .env
+```bash pip install -r requirements.txt
+``
 
-4. Add your API keys to .env .
+### 3. Configure environment variables
+
+Copy `.env.exampleto.env':
+
+```bash
+cp.env.example.env
+```
+Then add your API keys to `.env.
+
+Markdown
+
+> **Security:: Never commit your ` .env` file or expose API keys publicly. The ".gitignore" file is configured to keep `.env` out of the repository.
 
 ## Usage
 
