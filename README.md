@@ -40,7 +40,6 @@ The workflow follows a simple two-agent pipeline:
 ### 1. Clone the repository
 
 ```bash
-
 git clone https://github.com/sireeshabathu-oss/competitive-intelligence-crew.git
 
 cd competitive-intelligence-crew 
@@ -59,7 +58,7 @@ Copy `.env.exampleto.env':
 ```bash
 cp.env.example.env
 ```
-Then add your API keys to `.env.
+Then add your API keys to `.env`.
 
 Markdown
 
