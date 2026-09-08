@@ -1,5 +1,9 @@
 # Competitive Intelligence Crew 🤖
 
+
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
+
 A multi-agent AI system built with CrewAI that researches companies using real-time web search and generates structured competitive intelligence reports.
 
 > Automate the research. Analyze the competition. Generate actionable insights.
